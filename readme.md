@@ -11,12 +11,25 @@ Main libraries used:
 
 Project structure:
 ```
-.
+
+
+
 ├── README.md
 ├── app.py
-├── test.py
+├── endpoints
+│   ├── __init__.py
+│   ├── collection.py
+│   │── NFT.py
+│   └── user.py
+│
+├── data_models
+│   ├── __init__.py
+│   └── All_models
+│
+├── data.py
 ├── database.db
-└── requirements.txt
+├── requirements.txt
+└── test.py
 ```
 
 
@@ -24,6 +37,8 @@ Project structure:
 * test.py - unittest for endpoints.
 * database.db - database 
 * requirements.txt  - requirements to run this projects 
+* data_models - contains all data models.
+* endpoints - contains all endpoints and resources for API endpoints.
 
 ## Running 
 
